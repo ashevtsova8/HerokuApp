@@ -24,8 +24,8 @@ public class HerokuAppTest {
         String actualText = inputField.getAttribute("value"); //20
         Assert.assertEquals(actualText, "20");
 
-        inputField.sendKeys(Keys.ARROW_UP);
 
+        inputField.sendKeys(Keys.ARROW_UP);
         String actualText1 = inputField.getAttribute("value"); //21
         Assert.assertEquals(actualText1, "21");
 
